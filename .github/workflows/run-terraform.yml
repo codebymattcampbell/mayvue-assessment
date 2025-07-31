@@ -1,0 +1,4 @@
+    #   - name: Run Terraform Simulation
+    #     run: |
+    #       terraform init
+    #       terraform apply -auto-approve
