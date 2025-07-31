@@ -1,6 +1,6 @@
 output "id" {
   description = "The ID of the instance"
-  value       = local.instance_id
+  value       = new_ec2.instance_id
 }
 
 output "arn" {
@@ -151,7 +151,7 @@ output "ami" {
 
 output "availability_zone" {
   description = "The availability zone of the created instance"
-  value       = local.instance_availability_zone
+  value       = new_ec2.instance_availability_zone
 }
 
 ################################################################################
