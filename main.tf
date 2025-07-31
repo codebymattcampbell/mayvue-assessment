@@ -1,6 +1,7 @@
 
 provider "local" {
   # This is a placeholder provider, no backend resources needed
+  
 }
 
 resource "null_resource" "blue_sim" {
